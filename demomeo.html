@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="meo.js"></script>
+    <script src="chuot.js"></script>
+</head>
+<body>
+<script>
+    let tri = new Meo("Tri", 55);
+    tri.setTen("chi");
+    tri.setCanNang(tri.getCanNang()+1);
+    alert("idol:"+tri.getTen()+"có cân nặng là: "+tri.getCanNang());
+    let hiep = new Chuot("Hai chuot",12);
+    alert(hiep.getTen()+ "có căn nặng là"+hiep.getCanNang());
+</script>
+</body>
+</html>
